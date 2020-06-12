@@ -44,8 +44,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'OTDaplicacion' do
-  # Pods for OTDaplicacion
+target 'aplicacionOTD' do
+  # Pods for aplicacionOTD
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -77,7 +77,7 @@ target 'OTDaplicacion' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'OTDaplicacionTests' do
+  target 'aplicacionOTDTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -94,10 +94,10 @@ target 'OTDaplicacion' do
   end
 end
 
-target 'OTDaplicacion-tvOS' do
-  # Pods for OTDaplicacion-tvOS
+target 'aplicacionOTD-tvOS' do
+  # Pods for aplicacionOTD-tvOS
 
-  target 'OTDaplicacion-tvOSTests' do
+  target 'aplicacionOTD-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
